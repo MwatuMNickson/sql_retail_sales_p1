@@ -97,7 +97,7 @@ WHERE
 ```sql
 SELECT 
     category,
-    SUM(total_sale) as net_sale,
+    SUM(total_sale) as net_sales,
     COUNT(*) as total_orders
 FROM retail_sales
 GROUP BY 1
