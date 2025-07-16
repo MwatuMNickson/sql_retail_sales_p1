@@ -122,7 +122,7 @@ WHERE total_sale > 1000
 SELECT 
     category,
     gender,
-    COUNT(*) as total_trans
+    COUNT(*)
 FROM retail_sales
 GROUP 
     BY 
